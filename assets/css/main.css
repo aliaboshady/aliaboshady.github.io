@@ -122,10 +122,11 @@ em, i {
 
 p {
 	margin: 0 0 2em 0;
+	color: #696969;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #787878;
+	color: #5e5e5e;
 	font-weight: 400;
 	line-height: 1em;
 	margin: 0 0 1em 0;
@@ -142,7 +143,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2.5em;
+	font-size: 2em; /*###################################### H2 ######################################*/
 	font-weight: 600;
 	line-height: 1.5em;
 }
@@ -1457,7 +1458,7 @@ section.special, article.special {
 }
 
 header p {
-	color: #b2b2b2;
+	color: #d8d8d8;
 	position: relative;
 	margin: 0 0 1.5em 0;
 }
@@ -1481,7 +1482,7 @@ header h4+p, header h5+p, header h6+p {
 }
 
 header.major h2 {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 /* Form */

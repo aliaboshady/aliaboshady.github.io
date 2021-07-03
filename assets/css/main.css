@@ -2216,11 +2216,11 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	color: rgba(255, 255, 255, 0.5);
 	height: 100%;
 	left: 0;
-	padding: 4em 4em;
+	padding: 4em 2em; /*###################################### Header Padding #######################################*/
 	position: fixed;
 	text-align: left;
 	top: 0;
-	width: 25%;
+	width: 28%;
 }
 
 #header>* {

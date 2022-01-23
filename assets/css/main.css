@@ -2785,3 +2785,7 @@ body.is-touch .poptrox-popup .nav-next, body.is-touch .poptrox-popup .nav-previo
 	-moz-box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.7);
 	box-shadow: 0px 0px 19px -1px rgba(0, 0, 0, 0.7);
 }
+
+.gamevideo {
+	height: 600px;
+}

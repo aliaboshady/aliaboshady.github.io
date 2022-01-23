@@ -128,8 +128,8 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	color: #5e5e5e;
 	font-weight: 400;
-	line-height: 1em;
-	margin: 0 0 1em 0;
+	line-height: 2vh;
+	margin: 0 0 1vh 0;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -154,8 +154,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.1em;
-	line-height: 1.5em;
+	font-size: 2.5vh;
 }
 
 h5 {
@@ -1460,7 +1459,8 @@ section.special, article.special {
 header p {
 	color: #d8d8d8;
 	position: relative;
-	margin: 0 0 1.5em 0;
+	margin: 0 0 1vh 0;
+	font-weight:bold
 }
 
 header h2+p {
@@ -1476,9 +1476,7 @@ header h3+p {
 }
 
 header h4+p, header h5+p, header h6+p {
-	font-size: 0.9em;
-	margin-top: -0.6em;
-	line-height: 1.5em;
+	font-size: 2vh;
 }
 
 header.major h2 {
@@ -2221,6 +2219,10 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	text-align: left;
 	top: 0;
 	width: 28%;
+
+	
+    padding: 5vh 2em;
+
 }
 
 #header>* {
@@ -2256,7 +2258,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 #header .image.avatar {
 	margin: 0 0 1em 0;
-	width: 12em;
+	height: 20vh;
 }
 
 /* Footer */
